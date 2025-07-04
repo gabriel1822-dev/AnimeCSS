@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+
+    margin: 0;
+    font-family: "Gluten", cursive, sans-serif;
+    font-weight: 400;
+}
+
+.banner {
+
+    height: calc(100vw *0, 5625);
+    min-height: 40rem;
+    background: url(../img/banner/demon-slayer.png);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.938);
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar ul li {
+    padding: 0.25rem 0.50rem;
+}
+
+.banner div {
+    margin: auto;
+    max-width: 1000px;
+
+}
+
+
+.banner h1 {
+
+    font-size: 6rem;
+    margin: 0;
+    color: white;
+    /* horizontal vertical blur cor */
+
+    text-shadow:
+        2px 2px 50px black,
+        -2px -2px 50px black;
+
+}
